@@ -16,7 +16,7 @@ captive_portal:
 
 substitutions:
   name: "anenji"
-  friendly_name: "Anenji 4300W"
+  friendly_name: "Anenji 4200W"
   tx_pin: GPIO17  # (D6)
   rx_pin: GPIO16  # (D7)
 
@@ -24,7 +24,7 @@ esphome:
   name: anenji
   friendly_name: Anenji
   project:
-    name: "anenji-4k3w-modbus"
+    name: "anenji-4k2w-modbus"
     version: 1.0.0
 
 esp32:

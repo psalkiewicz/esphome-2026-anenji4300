@@ -1,5 +1,5 @@
-# esphome-2026-anenji4300
-Template for creating ESP Home device to replace internal datalogger module in Anenji 4300 (2026 models)
+# esphome-2026-anenji4200
+Template for creating ESP Home device to replace internal datalogger module in Anenji 4200 (2026 models)
 
 Pinout of the Wifi internal board. After disconnecting the original wifi board we have 3 pin headers with various connectivity options.
 The board does wifi communications and also rises the signals to RS485/RS232 levels. The signals on the pin headers are TTL levels and can be directly connected to ESP32 or Raspberry PI.
