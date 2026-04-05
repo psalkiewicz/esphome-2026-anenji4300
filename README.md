@@ -2,7 +2,7 @@
 Template for creating ESP Home device to replace internal datalogger module in Anenji 4200 (2026 models)
 
 Pinout of the Wifi internal board. After disconnecting the original wifi board we have 3 pin headers with various connectivity options.
-The board does wifi communications and also rises the signals to RS485/RS232 levels. The signals on the pin headers are TTL levels and can be directly connected to ESP32 or Raspberry PI.
+The board does wifi communications and also rises the signals to RS485/RS232 levels. The signals on the pin headers are 3.3V levels and can be directly connected to ESP32 or Raspberry PI.
 
 5-pin header - RS232
 |Pin|Description|
@@ -21,7 +21,7 @@ The board does wifi communications and also rises the signals to RS485/RS232 lev
 |3|+5V VCC|
 |4|GND|
 
-2-pin header - Unknown to be determined. One of the pins go directly into a transformer so I expect it to be some kind of AC here. Measuring with multimeter shows 0V. Maybe it requires enabling some output on the inverter.
+2-pin header - Unknown to be determined. One of the pins go directly into a transformer so I expect it to be some kind of AC here. Measuring with multimeter shows 0V. Maybe it requires enabling some output on the inverter. This one probably powers the RS485 line and is enabled only where Li-type of battery is selected. To be confirmed.
 |Pin|Description|
 |--|--|
 |1|Unknown|
